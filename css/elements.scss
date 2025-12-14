@@ -163,7 +163,7 @@ $stageThree: 1199px;
 
   @include stage02 {
     width: 100%;
-    max-width: 30%;
+    max-width: 80%;
 
     &:hover {
       transform: scale(1.05);
@@ -173,7 +173,7 @@ $stageThree: 1199px;
 
   @include stage03 {
     width: 100%;
-    max-width: 30%;
+    max-width: 50%;
 
     &:hover {
       transform: scale(1.05);
