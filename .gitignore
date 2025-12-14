@@ -6,3 +6,9 @@ galada-master/
 .jekyll-metadata
 *.DS_Store
 BackupImages/
+imageBashFile.sh
+
+node_modules/
+npm-debug.log
+bower_components/
+jasparkety.github.io-master

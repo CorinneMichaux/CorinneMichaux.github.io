@@ -1,0 +1,104 @@
+{% assign Gallery = site.data.Gallery.Galleryset %}
+
+<!-- <div class="container LogosContainer">
+  {% for item in Gallery %}
+
+     <img class="logoGallery" src="../{{ item.logoPath }}" onclick="smoothScroll(document.getElementById('{{ item.anchor }}'))">
+
+  {% endfor %}
+</div> -->
+<div class="introduction">
+  <div class="introductionTitle"><h1> Corinne Michaux Fine Arts</h1></div>
+  <!-- <div class="introductionText">{{ site.data.Introduction.Bio }}</div> -->
+</div>
+
+
+
+
+<!-- Galleryset:
+    -
+        title: Main Category1
+        anchor: MainCategory1
+        logoPath: assets/images/logos/bashGreen.png
+        subgallery:
+            -
+                title: Test1
+                description: DescriptionTest1
+                screenshot: assets/images/gallery_01.jpg
+            -
+                title: Test2
+                description: DescriptionTest2
+                screenshot: assets/images/gallery_02.jpg -->
+  <!-- <a href="https://github.com/JasParkety/" target="_blank"><img class="introductionImages" src="../assets/images/logos/github.png"></a>
+  <a href="https://codepen.io/JasParkety" target="_blank"><img class="introductionImages" src="../assets/images/logos/codepen.png"></a>
+  <a href="https://stackoverflow.com/users/8557886/jasparkety" target="_blank"><img class="introductionImages" src="../assets/images/logos/stackoverflow.png"></a> -->
+
+
+
+
+  {% for GalleryCategory in Gallery %}
+
+    {% assign modCategories = forloop.index | modulo: 2 %}
+
+
+
+        <div class="mainElementSection-{{ modCategories }}" id="{{GalleryCategory.anchor}}">
+          <!-- <h2>{{ GalleryCategory.title }}</h2>
+          <h3>{{ GalleryCategory.description }}</h3> -->
+          <h4>{{ GalleryCategory.screenshot }}</h4>
+      </div>
+
+
+
+      {% for item in GalleryCategory.subgallery %}
+        {% assign mod = forloop.index | modulo: 2 %}
+            <div class="elementsContainer-{{ modCategories }}">
+              {% if modCategories == 1 %}
+                <div class="elementsFlexContainer-{{ modCategories }}">
+
+        <!-- <div class="wrapperCol-{{ modCategories }}">
+              <h2>{{ item.title }}</h2>
+                  <div class="GalleryDescription">
+                      {{ item.description }}
+                  </div>
+        </div> -->
+        <div class="screenshotFlexContainer-{{ modCategories }}">
+              <img loading="lazy" class="screenshots" onclick=triggerModal("../{{ item.screenshot }}") src="../{{ item.screenshotplaceholder }}" data-src="../{{ item.screenshot }}" alt="../{{ item.description }}">
+
+
+        </div>
+
+    </div>
+
+{% else %}
+
+<div class="elementsFlexContainer-{{ modCategories }}">
+
+    <div class="screenshotFlexContainer-{{ modCategories }}">
+          <img loading="lazy" class="screenshots" onclick=triggerModal("../{{ item.screenshot }}") src="../{{ item.screenshotplaceholder }}" data-src="../{{ item.screenshot }}" alt="../{{ item.description }}">
+    </div>
+
+    <!-- <div class="wrapperCol-{{ modCategories }}">
+          <h2>{{ item.title }}</h2>
+              <div class="GalleryDescription">
+                  {{ item.description }}
+              </div>
+    </div> -->
+
+</div>
+
+{% endif %}
+
+
+        </div>
+        {% endfor %}
+
+
+
+  {% endfor %}
+
+  <div id="myModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="img01">
+    <div id="caption"></div>
+  </div>

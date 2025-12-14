@@ -1,0 +1,50 @@
+html *
+{
+
+   // font-family: "Antonellie" !important;
+}
+
+html h1 {
+   font-family: "Anton", sans-serif;
+   -webkit-user-select: none; /* Safari */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* IE10+/Edge */
+   user-select: none; /* Standard */
+
+}
+
+.mainElementSection h2 {
+    // in elements.scss
+}
+
+[class^="wrapperCol-"] h2 {
+    color: $brightSand;
+    @include stage00 {font-size: 1rem;}
+    @include stage01 {font-size: 1.2rem;}
+    @include stage02 {font-size: 1.4rem;}
+    @include stage03 {font-size: 1.6rem;}
+}
+
+.fontFamilyAntonellie {
+  font-family:"Antonellie" !important;
+}
+
+.GalleryDescription {
+
+  @extend .transitionAllFast;
+  @include stage00 {font-size: 18px;}
+  @include stage01 {font-size: 20px;}
+  @include stage02 {font-size: 22px;}
+  @include stage03 {font-size: 24px;}
+  color: black;
+
+}
+
+.introductionText {
+  color: white;
+
+  @include stage00 {font-size: 18px;}
+  @include stage01 {font-size: 20px;}
+  @include stage02 {font-size: 22px;}
+  @include stage03 {font-size: 24px;}
+}

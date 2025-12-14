@@ -1,0 +1,44 @@
+{% assign Gallerys = site.data.Gallerys.Galleryset %}
+
+
+<div class="container StickyNav">
+     <div class="container LogosContainer">
+
+       {% for item in Gallerys %}
+
+          <img class="logoGallerys" src="../{{ item.logoPath }}" onclick="smoothScroll(document.getElementById('{{ item.anchor }}'))">
+
+       {% endfor %}
+
+</div>
+</div>
+
+<div class="MobileTopNavigation">
+
+      <div id="initiate" class="item item-transition item-b color-button myRipple">
+        <span class="top"></span>
+        <span class="middle"></span>
+        <span class="bottom"></span>
+      </div>
+
+    <div class="JasParketyMobile">JasParkety</div>
+
+    <div id="secondDisplay" class="slider hide">
+      <div class="mobileLogoContainerFlex">
+        {% for item in Gallerys %}
+          <div class="logoGallerysContainer">
+           <img class="logoGallerys" src="../{{ item.logoPath }}" onclick="smoothScroll(document.getElementById('{{ item.anchor }}'))">
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div id="display" class="slider hide">
+      <div class="FrontEndMobile">
+        <span>Front</span>
+        <span>End</span>
+        <span>Development</span>
+      </div>
+    </div>
+
+</div>

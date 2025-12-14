@@ -1,14 +1,7 @@
 source "https://rubygems.org"
 
-# You usually don't need to list bundler itself here
-# gem "bundler"
-
-gem "jekyll", ">= 3.8.4"
-gem "jekyll-paginate"
-gem "jekyll-sitemap"
-
-# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
+gem "jekyll", "~> 4.4"
+gem "webrick"
+gem "tzinfo"
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-
-# Performance-booster for watching directories on Windows
-gem "wdm", "~> 0.1.0", platforms: [:mingw, :mswin, :x64_mingw]
+gem "jekyll-redirect-from"

@@ -1,0 +1,136 @@
+Galleryset:
+    -
+        title: Main Category1
+        anchor: MainCategory1
+        logoPath: assets/images/logos/bashGreen.png
+        subgallery:
+            -
+                title: Test1
+                description: DescriptionTest1
+                screenshot: assets/images/gallery_01.jpg
+                screenshotplaceholder: assets/images/gallery_01_placeholder.jpg
+            -
+                title: Test2
+                description: DescriptionTest2
+                screenshot: assets/images/gallery_02.jpg
+                screenshotplaceholder: assets/images/gallery_02_placeholder.jpg
+            -
+                title: Test3
+                description: DescriptionTest3
+                screenshot: assets/images/gallery_03.jpg
+                screenshotplaceholder: assets/images/gallery_03_placeholder.jpg
+            -
+                title: Test2
+                description: DescriptionTest2
+                screenshot: assets/images/gallery_04.jpg
+                screenshotplaceholder: assets/images/gallery_04_placeholder.jpg
+            -
+                title: Test1
+                description: DescriptionTest2
+                screenshot: assets/images/gallery_05.jpg
+                screenshotplaceholder: assets/images/gallery_05_placeholder.jpg
+            -
+                title: Test2
+                description: DescriptionTest2
+                screenshot: assets/images/gallery_06.jpg
+                screenshotplaceholder: assets/images/gallery_06_placeholder.jpg
+            -
+                title: Test1
+                description: DescriptionTest2
+                screenshot: assets/images/gallery_07.jpg
+                screenshotplaceholder: assets/images/gallery_07_placeholder.jpg
+            -
+                title: Test2
+                description: DescriptionTest2
+                screenshot: assets/images/gallery_08.jpg
+                screenshotplaceholder: assets/images/gallery_08_placeholder.jpg
+            -
+                title: Test2
+                description: DescriptionTest2
+                screenshot: assets/images/gallery_09.jpg
+                screenshotplaceholder: assets/images/gallery_09_placeholder.jpg
+            -
+                title: Test1
+                description: DescriptionTest1
+                screenshot: assets/images/gallery_10.jpg
+                screenshotplaceholder: assets/images/gallery_10_placeholder.jpg
+            -
+                title: Test2
+                description: DescriptionTest2
+                screenshot: assets/images/gallery_11.jpg
+                screenshotplaceholder: assets/images/gallery_11_placeholder.jpg
+            -
+                title: Test3
+                description: DescriptionTest3
+                screenshot: assets/images/gallery_12.jpg
+                screenshotplaceholder: assets/images/gallery_12_placeholder.jpg
+            -
+                title: Test2
+                description: DescriptionTest2
+                screenshot: assets/images/gallery_13.jpg
+                screenshotplaceholder: assets/images/gallery_13_placeholder.jpg
+            -
+                title: Test1
+                description: DescriptionTest2
+                screenshot: assets/images/gallery_14.jpg
+                screenshotplaceholder: assets/images/gallery_14_placeholder.jpg
+            -
+                title: Test2
+                description: DescriptionTest2
+                screenshot: assets/images/gallery_15.jpg
+                screenshotplaceholder: assets/images/gallery_15_placeholder.jpg
+            -
+                title: Test1
+                description: DescriptionTest2
+                screenshot: assets/images/gallery_16.jpg
+                screenshotplaceholder: assets/images/gallery_16_placeholder.jpg
+            -
+                title: Test2
+                description: DescriptionTest2
+                screenshot: assets/images/gallery_17.jpg
+                screenshotplaceholder: assets/images/gallery_17_placeholder.jpg
+            -
+                title: Test2
+                description: DescriptionTest2
+                screenshot: assets/images/gallery_18.jpg
+                screenshotplaceholder: assets/images/gallery_18_placeholder.jpg
+            -
+                title: Test2
+                description: DescriptionTest2
+                screenshot: assets/images/gallery_19.jpg
+                screenshotplaceholder: assets/images/gallery_19_placeholder.jpg
+            -
+                title: Test2
+                description: DescriptionTest2
+                screenshot: assets/images/gallery_20.jpg
+                screenshotplaceholder: assets/images/gallery_20_placeholder.jpg
+            -
+                title: Test2
+                description: DescriptionTest2
+                screenshot: assets/images/gallery_21.jpg
+                screenshotplaceholder: assets/images/gallery_21_placeholder.jpg
+            -
+                title: Test2
+                description: DescriptionTest2
+                screenshot: assets/images/gallery_22.jpg
+                screenshotplaceholder: assets/images/gallery_22_placeholder.jpg
+            -
+                title: Test2
+                description: DescriptionTest2
+                screenshot: assets/images/gallery_23.jpg
+                screenshotplaceholder: assets/images/gallery_23_placeholder.jpg
+    -
+        title: Main Category2
+        anchor: MainCategory2
+        logoPath: assets/images/logos/jQuery.png
+        subgallery:
+            -
+                title: Test1
+                description: DescriptionTest2
+                screenshot: assets/images/gallery_24.jpg
+                screenshotplaceholder: assets/images/gallery_24_placeholder.jpg
+            -
+                title: Test2
+                description: DescriptionTest2
+                screenshot: assets/images/gallery_25.jpg
+                screenshotplaceholder: assets/images/gallery_25_placeholder.jpg

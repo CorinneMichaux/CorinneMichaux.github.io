@@ -1,21 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html id="no-fouc" lang="en" class="no-js">
 
-{% include head.html %}
+<!--  Setting Parameter -->
+
+  {% include head.html %}
+
+  <header>
+
+    {% include navigation.html %}
+  </header>
 
 <body>
 
-  {% if site.google-analytics %}
-    {% include google-analytics.html %}
-  {% endif %}
-  {% include loader.html %}
-  {% include header.html %}
+    {% include preLoader.html %}
 
-      {{ content }}
+    <!--  Lets get the nice transition for the Background -->
+    <div class="firstGradient">
+    </div>
+    <div class="secondGradient">
+    </div>
 
-  {% include footer.html %}
-  {% include javascripts.html %}
+    <!-- Main Section for the layout's holder -->
+    <main>
 
-</body>
+        {{ content }}
+
+    </main>
+
+
+
+
+{% include javascripts.html %}
+  </body>
+
+  <footer>
+    {% comment %}{% include footer.html %}{% endcomment %}
+  </footer>
 
 </html>
