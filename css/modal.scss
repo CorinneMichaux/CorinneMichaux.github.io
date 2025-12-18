@@ -19,27 +19,25 @@
   overflow-y: hidden;
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
-  @include stage00 {padding-top: 5%}
-  @include stage02 {padding-top: 5%}
-  @include stage01 {padding-top: 5%}
-  @include stage03 {padding-top: 5%}
+  @include stage00 {padding-top: 5%};
+  @include stage02 {padding-top: 5%};
+  @include stage01 {padding-top: 5%};
+  @include stage03 {padding-top: 5%};
 }
 
 /* Modal Content (image) */
 .modal-content {
   margin: auto;
   display: block;
-  height: 90%;
   width: auto;
 
+  @include stage00 {margin-top: 10%; padding-top: 0px;  max-width: 95%; width: 100%;}
+  @include stage01 {margin-top: 10%; padding-top: 0px;  max-width: 95%;}
+  @include stage02 {margin-top: 10%; padding-top: 0px; height: 90%;}
+  @include stage03 {padding-top:10%; height: 90%;}
 
 }
-/* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px){
-  .modal-content {
-    width: 100%;
-  }
-}
+
 
 
 /* Caption of Modal Image */

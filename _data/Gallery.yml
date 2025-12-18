@@ -35,11 +35,6 @@ Galleryset:
                 screenshot: assets/images/gallery_06.jpg
                 screenshotplaceholder: assets/images/gallery_06_placeholder.jpg
             -
-                title: Test1
-                description: DescriptionTest2
-                screenshot: assets/images/gallery_07.jpg
-                screenshotplaceholder: assets/images/gallery_07_placeholder.jpg
-            -
                 title: Test2
                 description: DescriptionTest2
                 screenshot: assets/images/gallery_08.jpg
